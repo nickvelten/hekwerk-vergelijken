@@ -46,7 +46,7 @@ export const fenceTypes: FenceType[] = [
     lifespan: "25-40 jaar",
     installationDifficulty: "Gemiddeld",
     bestFor: ["Tuinafscheiding", "Bedrijfsterreinen", "Sportterreinen"],
-    image: "/images/dubbelstaafmat.svg",
+    image: "/images/fences/dubbelstaafmat.svg",
     popular: true,
   },
   {
@@ -71,7 +71,7 @@ export const fenceTypes: FenceType[] = [
     lifespan: "20-30 jaar",
     installationDifficulty: "Makkelijk",
     bestFor: ["Tuinafscheiding", "Percelen", "Dierenweides"],
-    image: "/images/enkelstaafmat.svg",
+    image: "/images/fences/enkelstaafmat.svg",
     popular: false,
   },
   {
@@ -96,7 +96,7 @@ export const fenceTypes: FenceType[] = [
     lifespan: "30-50+ jaar",
     installationDifficulty: "Moeilijk",
     bestFor: ["Voortuinen", "Villa's", "Monumentale panden"],
-    image: "/images/sierhekwerk.svg",
+    image: "/images/fences/sierhekwerk.svg",
     popular: true,
   },
   {
@@ -121,7 +121,7 @@ export const fenceTypes: FenceType[] = [
     lifespan: "15-25 jaar",
     installationDifficulty: "Gemiddeld",
     bestFor: ["Tuinafscheiding", "Privacy", "Achtertuinen"],
-    image: "/images/hout-beton.svg",
+    image: "/images/fences/hout-beton.svg",
     popular: true,
   },
   {
@@ -146,7 +146,7 @@ export const fenceTypes: FenceType[] = [
     lifespan: "25-35 jaar",
     installationDifficulty: "Gemiddeld",
     bestFor: ["Moderne tuinen", "Onderhoudsvrij", "Design"],
-    image: "/images/composiet.svg",
+    image: "/images/fences/composiet.svg",
     popular: true,
   },
   {
@@ -171,7 +171,7 @@ export const fenceTypes: FenceType[] = [
     lifespan: "30-50+ jaar",
     installationDifficulty: "Gemiddeld",
     bestFor: ["Moderne tuinen", "Design", "Strakke architectuur"],
-    image: "/images/aluminium.svg",
+    image: "/images/fences/aluminium.svg",
     popular: false,
   },
   {
@@ -196,7 +196,7 @@ export const fenceTypes: FenceType[] = [
     lifespan: "15-20 jaar",
     installationDifficulty: "Makkelijk",
     bestFor: ["Agrarisch", "Dierenweides", "Grote percelen", "Budget"],
-    image: "/images/gaashekwerk.svg",
+    image: "/images/fences/gaashekwerk.svg",
     popular: false,
   },
   {
@@ -221,7 +221,7 @@ export const fenceTypes: FenceType[] = [
     lifespan: "30-50 jaar",
     installationDifficulty: "Moeilijk",
     bestFor: ["Beveiliging", "Bedrijfsterreinen", "Voortuinen"],
-    image: "/images/spijlenhekwerk.svg",
+    image: "/images/fences/spijlenhekwerk.svg",
     popular: false,
   },
   {
@@ -246,7 +246,7 @@ export const fenceTypes: FenceType[] = [
     lifespan: "40-60+ jaar",
     installationDifficulty: "Moeilijk",
     bestFor: ["Maximale privacy", "Geluidswering", "Lange levensduur"],
-    image: "/images/betonschutting.svg",
+    image: "/images/fences/betonschutting.svg",
     popular: false,
   },
 ];
@@ -254,6 +254,7 @@ export const fenceTypes: FenceType[] = [
 export interface Supplier {
   name: string;
   website: string;
+  logo: string;
   rating: number;
   reviewCount: number;
   specialty: string;
@@ -267,6 +268,7 @@ export const suppliers: Supplier[] = [
   {
     name: "Hekwerk Online",
     website: "hekwerkonline.nl",
+    logo: "/images/suppliers/hekwerk-online.svg",
     rating: 9.0,
     reviewCount: 2650,
     specialty: "Grootste online hekwerk retailer",
@@ -284,6 +286,7 @@ export const suppliers: Supplier[] = [
   {
     name: "Hekkenwereld",
     website: "hekkenwereld.nl",
+    logo: "/images/suppliers/hekkenwereld.svg",
     rating: 9.3,
     reviewCount: 800,
     specialty: "Familiebedrijf, 35 jaar ervaring",
@@ -300,6 +303,7 @@ export const suppliers: Supplier[] = [
   {
     name: "HB Hekwerk",
     website: "hbhekwerk.nl",
+    logo: "/images/suppliers/hb-hekwerk.svg",
     rating: 8.7,
     reviewCount: 2400,
     specialty: "Grootste assortiment, eigen productie",
@@ -317,6 +321,7 @@ export const suppliers: Supplier[] = [
   {
     name: "Hekwerk Direct",
     website: "hekwerkdirect.nl",
+    logo: "/images/suppliers/hekwerk-direct.svg",
     rating: 8.5,
     reviewCount: 500,
     specialty: "Doe-het-zelf specialist, snelle levering",
@@ -328,6 +333,7 @@ export const suppliers: Supplier[] = [
   {
     name: "Schutting.nl",
     website: "schutting.nl",
+    logo: "/images/suppliers/schutting-nl.svg",
     rating: 8.8,
     reviewCount: 650,
     specialty: "Specialist in houten en composiet schuttingen",
@@ -339,6 +345,7 @@ export const suppliers: Supplier[] = [
   {
     name: "De Wit Hekwerken",
     website: "dewithekwerk.nl",
+    logo: "/images/suppliers/de-wit.svg",
     rating: 9.1,
     reviewCount: 350,
     specialty: "Premium sierhekwerk, eigen productie",
@@ -350,6 +357,7 @@ export const suppliers: Supplier[] = [
   {
     name: "Hekvoordeel",
     website: "hekvoordeel.nl",
+    logo: "/images/suppliers/hekvoordeel.svg",
     rating: 8.4,
     reviewCount: 420,
     specialty: "Scherpe prijzen, eigen installatieteam",
@@ -367,6 +375,7 @@ export const suppliers: Supplier[] = [
   {
     name: "ABC Hekwerk",
     website: "abchekwerk.nl",
+    logo: "/images/suppliers/abc-hekwerk.svg",
     rating: 8.9,
     reviewCount: 300,
     specialty: "Professional, 17 locaties, beveiliging",

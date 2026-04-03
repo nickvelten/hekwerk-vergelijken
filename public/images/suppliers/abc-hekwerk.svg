@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" fill="none">
+  <rect width="120" height="40" rx="6" fill="#b71c1c"/>
+  <text x="36" y="28" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="800" fill="white">ABC</text>
+  <text x="86" y="24" text-anchor="middle" font-family="system-ui,sans-serif" font-size="8" font-weight="600" fill="#ffcdd2">HEKWERK</text>
+</svg>

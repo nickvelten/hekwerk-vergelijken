@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { fenceTypes, formatPrice } from "@/lib/fence-data";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -71,12 +72,18 @@ export function FenceTypesSection() {
                 </div>
               )}
 
-              <div className="flex h-40 items-center justify-center bg-gradient-to-br from-primary/5 to-primary/10 transition-colors group-hover:from-primary/10 group-hover:to-primary/15">
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-primary">
+              <div className="relative h-48 overflow-hidden bg-gradient-to-br from-primary/5 to-primary/10 transition-colors group-hover:from-primary/10 group-hover:to-primary/15">
+                <Image
+                  src={fence.image}
+                  alt={fence.name}
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent p-3">
+                  <div className="text-2xl font-bold text-white">
                     {formatPrice(fence.priceMin, fence.priceMax)}
                   </div>
-                  <div className="mt-1 text-xs text-muted-foreground">
+                  <div className="text-xs text-white/80">
                     {fence.priceUnit}
                   </div>
                 </div>

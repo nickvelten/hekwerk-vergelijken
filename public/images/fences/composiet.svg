@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <defs>
+    <linearGradient id="sky5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eceff1"/>
+      <stop offset="100%" stop-color="#cfd8dc"/>
+    </linearGradient>
+    <linearGradient id="comp" x1="0" y1="0" x2="0.3" y2="0">
+      <stop offset="0%" stop-color="#5d4037"/>
+      <stop offset="50%" stop-color="#6d4c41"/>
+      <stop offset="100%" stop-color="#5d4037"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky5)"/>
+  <rect x="0" y="250" width="400" height="50" fill="#455a64"/>
+  <rect x="0" y="246" width="400" height="8" fill="#78909c" rx="2"/>
+  <!-- Aluminium posts -->
+  <rect x="42" y="70" width="16" height="180" fill="#546e7a" rx="2"/>
+  <rect x="42" y="68" width="16" height="6" fill="#607d8b" rx="2"/>
+  <rect x="192" y="70" width="16" height="180" fill="#546e7a" rx="2"/>
+  <rect x="192" y="68" width="16" height="6" fill="#607d8b" rx="2"/>
+  <rect x="342" y="70" width="16" height="180" fill="#546e7a" rx="2"/>
+  <rect x="342" y="68" width="16" height="6" fill="#607d8b" rx="2"/>
+  <!-- Composiet planken - left panel -->
+  <g>
+    <rect x="60" y="78" width="130" height="16" fill="#5d4037" rx="1"/>
+    <rect x="60" y="96" width="130" height="16" fill="#6d4c41" rx="1"/>
+    <rect x="60" y="114" width="130" height="16" fill="#5d4037" rx="1"/>
+    <rect x="60" y="132" width="130" height="16" fill="#6d4c41" rx="1"/>
+    <rect x="60" y="150" width="130" height="16" fill="#5d4037" rx="1"/>
+    <rect x="60" y="168" width="130" height="16" fill="#6d4c41" rx="1"/>
+    <rect x="60" y="186" width="130" height="16" fill="#5d4037" rx="1"/>
+    <rect x="60" y="204" width="130" height="16" fill="#6d4c41" rx="1"/>
+    <rect x="60" y="222" width="130" height="16" fill="#5d4037" rx="1"/>
+  </g>
+  <!-- Composiet planken - right panel -->
+  <g>
+    <rect x="210" y="78" width="130" height="16" fill="#5d4037" rx="1"/>
+    <rect x="210" y="96" width="130" height="16" fill="#6d4c41" rx="1"/>
+    <rect x="210" y="114" width="130" height="16" fill="#5d4037" rx="1"/>
+    <rect x="210" y="132" width="130" height="16" fill="#6d4c41" rx="1"/>
+    <rect x="210" y="150" width="130" height="16" fill="#5d4037" rx="1"/>
+    <rect x="210" y="168" width="130" height="16" fill="#6d4c41" rx="1"/>
+    <rect x="210" y="186" width="130" height="16" fill="#5d4037" rx="1"/>
+    <rect x="210" y="204" width="130" height="16" fill="#6d4c41" rx="1"/>
+    <rect x="210" y="222" width="130" height="16" fill="#5d4037" rx="1"/>
+  </g>
+  <!-- Subtle wood grain lines -->
+  <g stroke="#4e342e" stroke-width="0.3" opacity="0.3">
+    <line x1="65" y1="82" x2="185" y2="84"/>
+    <line x1="65" y1="100" x2="185" y2="102"/>
+    <line x1="65" y1="118" x2="185" y2="120"/>
+    <line x1="215" y1="82" x2="335" y2="84"/>
+    <line x1="215" y1="100" x2="335" y2="102"/>
+    <line x1="215" y1="118" x2="335" y2="120"/>
+  </g>
+</svg>

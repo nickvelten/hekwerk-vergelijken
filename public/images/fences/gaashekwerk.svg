@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <defs>
+    <linearGradient id="sky7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8f5e9"/>
+      <stop offset="100%" stop-color="#c8e6c9"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky7)"/>
+  <rect x="0" y="245" width="400" height="55" fill="#795548"/>
+  <rect x="0" y="241" width="400" height="8" fill="#a5d6a7" rx="2"/>
+  <!-- Grass details -->
+  <path d="M30 241 Q33 228 36 241" fill="#66bb6a" opacity="0.6"/>
+  <path d="M150 241 Q153 230 156 241" fill="#66bb6a" opacity="0.7"/>
+  <path d="M280 241 Q283 225 286 241" fill="#66bb6a" opacity="0.6"/>
+  <path d="M370 241 Q372 232 374 241" fill="#66bb6a" opacity="0.7"/>
+  <!-- Wooden/metal posts -->
+  <rect x="50" y="80" width="8" height="165" fill="#689f38" rx="1"/>
+  <rect x="50" y="76" width="8" height="8" fill="#7cb342" rx="2"/>
+  <rect x="196" y="80" width="8" height="165" fill="#689f38" rx="1"/>
+  <rect x="196" y="76" width="8" height="8" fill="#7cb342" rx="2"/>
+  <rect x="342" y="80" width="8" height="165" fill="#689f38" rx="1"/>
+  <rect x="342" y="76" width="8" height="8" fill="#7cb342" rx="2"/>
+  <!-- Top wire -->
+  <line x1="58" y1="88" x2="342" y2="88" stroke="#9e9e9e" stroke-width="2.5"/>
+  <!-- Chain link mesh pattern -->
+  <g stroke="#b0bec5" stroke-width="0.8" opacity="0.9">
+    <!-- Diamond pattern rows -->
+    <path d="M58 88 L73 108 L58 128 L73 148 L58 168 L73 188 L58 208 L73 228 L58 245"/>
+    <path d="M73 88 L88 108 L73 128 L88 148 L73 168 L88 188 L73 208 L88 228 L73 245"/>
+    <path d="M88 88 L103 108 L88 128 L103 148 L88 168 L103 188 L88 208 L103 228 L88 245"/>
+    <path d="M103 88 L118 108 L103 128 L118 148 L103 168 L118 188 L103 208 L118 228 L103 245"/>
+    <path d="M118 88 L133 108 L118 128 L133 148 L118 168 L133 188 L118 208 L133 228 L118 245"/>
+    <path d="M133 88 L148 108 L133 128 L148 148 L133 168 L148 188 L133 208 L148 228 L133 245"/>
+    <path d="M148 88 L163 108 L148 128 L163 148 L148 168 L163 188 L148 208 L163 228 L148 245"/>
+    <path d="M163 88 L178 108 L163 128 L178 148 L163 168 L178 188 L163 208 L178 228 L163 245"/>
+    <path d="M178 88 L193 108 L178 128 L193 148 L178 168 L193 188 L178 208 L193 228 L178 245"/>
+    <path d="M204 88 L219 108 L204 128 L219 148 L204 168 L219 188 L204 208 L219 228 L204 245"/>
+    <path d="M219 88 L234 108 L219 128 L234 148 L219 168 L234 188 L219 208 L234 228 L219 245"/>
+    <path d="M234 88 L249 108 L234 128 L249 148 L234 168 L249 188 L234 208 L249 228 L234 245"/>
+    <path d="M249 88 L264 108 L249 128 L264 148 L249 168 L264 188 L249 208 L264 228 L249 245"/>
+    <path d="M264 88 L279 108 L264 128 L279 148 L264 168 L279 188 L264 208 L279 228 L264 245"/>
+    <path d="M279 88 L294 108 L279 128 L294 148 L279 168 L294 188 L279 208 L294 228 L279 245"/>
+    <path d="M294 88 L309 108 L294 128 L309 148 L294 168 L309 188 L294 208 L309 228 L294 245"/>
+    <path d="M309 88 L324 108 L309 128 L324 148 L309 168 L324 188 L309 208 L324 228 L309 245"/>
+    <path d="M324 88 L339 108 L324 128 L339 148 L324 168 L339 188 L324 208 L339 228 L324 245"/>
+  </g>
+</svg>

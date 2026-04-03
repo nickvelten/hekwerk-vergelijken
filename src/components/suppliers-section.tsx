@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { suppliers } from "@/lib/fence-data";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -42,16 +43,27 @@ export function SuppliersSection() {
               }`}
             >
               <CardHeader className="pb-3">
-                <div className="flex items-start justify-between">
-                  <div>
-                    <CardTitle className="text-base">{supplier.name}</CardTitle>
+                <div className="flex items-start gap-3">
+                  <div className="shrink-0 overflow-hidden rounded-md">
+                    <Image
+                      src={supplier.logo}
+                      alt={`${supplier.name} logo`}
+                      width={60}
+                      height={20}
+                      className="h-auto w-[60px]"
+                    />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-start justify-between">
+                      <CardTitle className="text-base">{supplier.name}</CardTitle>
+                      {index === 0 && (
+                        <Badge className="text-[10px] shrink-0">Hoogst beoordeeld</Badge>
+                      )}
+                    </div>
                     <CardDescription className="text-xs mt-1">
                       {supplier.specialty}
                     </CardDescription>
                   </div>
-                  {index === 0 && (
-                    <Badge className="text-[10px]">Hoogst beoordeeld</Badge>
-                  )}
                 </div>
               </CardHeader>
               <CardContent className="space-y-3">
